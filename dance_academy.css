@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+}
+li a{
+font-family: 'Poppins', sans-serif;
+font-weight: 500;
+font-size: 16px;
+text-decoration: none;
+padding: 30px 30px;
+color: black;
+
+}
+nav{
+    padding: 15px 100px;
+    background-color: rgba(31, 235, 208, 0.849);
+    margin-top: -15px;  
+}
+
+
+#brand{
+    background-color: #e95858be;
+    box-sizing: border-box;
+    border-radius: 0.50 em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+font-size: 16px;
+display: flex;
+justify-content: space-between;
+}
+body {
+    position: relative; 
+    margin: 0;
+    padding: 0;
+    width: 100%;
+ 
+  }
+  .room{
+      width: 40%;
+      padding: 40px 80px;
+      float: left;
+  }
+.carousel-inner{
+height: 760px;
+width: 1700px;
+margin-top: -10px;
+}
+  
+  #room{
+      height: 400px;
+      width: 400px;
+  }
+  .description{
+      width: 60%;
+      float: left;
+      font-size: large;
+
+  }
+  #place{
+      font-size: 10vh;
+  }
+  #training{
+      font-size: 3vh;
+  }
+  .text{
+      width: 40%;
+      float: left;
+      background-color: black;
+      color: white;
+  }
+  #section2{
+      background-color: black;
+      font-size: 12vh;
+      color: rgb(7, 7, 7);
+      padding-left: 50px;
+  }
+  .img{
+      width: 60%;
+      float: left;
+  }
+  img{
+      height: 600px;
+      width: 1000px;
+  }
+  #section1{
+      height: 70%;
+      width: 100%;
+  }
+  #section4{
+    background-color: rgba(137, 43, 226, 0.588);
+
+  }
+  .row{
+      color: white;
+  }
+  #section5{
+      background-image: url(header2.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .breadcrumb{
+    text-align: center;
+}
+  #instructor{
+font-size: 10vh;
+text-align: center;
+background-color: blueviolet;
+  }
+  #i1{
+      height: 200px;
+      width: 200px;
+      margin-left: 80px;
+      padding: 10px;   
+  }
+.panel{
+    height: 550px;
+    width: 800px;
+    align-content: center;
+    margin: 0 auto; 
+    float: none;
+    margin-bottom: 10px;
+    padding: 10px;font-size: medium;
+    line-height: 25px;
+    
+}
+.connect{
+    margin-top: 120px;
+}
+.pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+  
+  }
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+  }
+
+footer{
+    background-color: #d3e958be;
+    box-sizing: border-box;
+    border-radius: 0.25em;
+    font-size:30px;
+    text-align: center;}
+    
+    html{
+        scroll-behavior: smooth;
+    }
+
+.navbar .navbar-nav > li > a,
+.navbar .navbar-nav > .active > a{
+    color: rgb(8, 8, 8);
+}
+
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus,
+.navbar .navbar-nav > .active > a:hover,
+.navbar .navbar-nav > .active > a:focus {
+    color: red;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+
+  .affix + .container-fluid {
+  padding: 0px 0px;
+  }
+  .modal-body{overflow-y: inherit;}
+
+.modal-open .dropdown-menu {
+  z-index: 2050;
+}
